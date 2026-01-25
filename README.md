@@ -1,16 +1,52 @@
-git init - one time for initialization of dir
+0) Go to your project folder
+cd ~/Desktop/my_project
 
-git remote add origin https://github.com/USERNAME/REPO.git - connect to our repository, origin is the name of the repository which creates automatically 
-
-git remote -v - just check for the  correct connect
-
-git add . - select which files we will be add (. mean all files in the dir)
-
-git commit -m "first commit" - just make the copy of save
-
-git push -u origin main - select which the branch we will be push
-
-git push - push to repository
+1) Create README + .gitignore (optional but recommended)
+touch README.md .gitignore
 
 
+Example .gitignore for C/C++ (quick start):
 
+cat << 'EOF' > .gitignore
+/build
+*.o
+*.out
+*.exe
+*.log
+EOF
+
+2) Initialize git
+git init
+
+3) Make sure branch is main
+git branch -M main
+
+4) Create the repo on GitHub EMPTY
+
+When you create it on GitHub, choose:
+
+✅ Do NOT add README
+
+✅ Do NOT add .gitignore
+
+✅ Do NOT add LICENSE
+
+(Empty remote avoids “fetch first” problems.)
+
+5) Connect remote (origin)
+git remote add origin https://github.com/USERNAME/REPO.git
+git remote -v
+
+6) First commit
+git add .
+git commit -m "Initial commit"
+
+7) First push + set upstream
+git push -u origin main
+
+
+After this, next times you can do:
+
+git add .
+git commit -m "Some change"
+git push
