@@ -8,5 +8,9 @@ git add . - select which files we will be add (. mean all files in the dir)
 
 git commit -m "first commit" - just make the copy of save
 
+git push -u origin main - select which the branch we will be push
+
+git push - push to repository
+
 
 
