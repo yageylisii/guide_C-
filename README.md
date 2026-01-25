@@ -39,9 +39,10 @@ git remote -v
 
 6) First commit
 git add .
+
 git commit -m "Initial commit"
 
-7) First push + set upstream
+8) First push + set upstream
 git push -u origin main
 
 
