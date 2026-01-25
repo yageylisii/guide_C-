@@ -5,16 +5,6 @@ cd ~/Desktop/my_project
 touch README.md .gitignore
 
 
-Example .gitignore for C/C++ (quick start):
-
-cat << 'EOF' > .gitignore
-/build
-*.o
-*.out
-*.exe
-*.log
-EOF
-
 2) Initialize git
 git init
 
@@ -31,18 +21,20 @@ When you createSoft wrap it on GitHub, choose:
 
 ✅ Do NOT add LICENSE
 
-(Empty remote avoids “fetch first” problems.)
 
 5) Connect remote (origin):
+   
 git remote add origin https://github.com/USERNAME/REPO.git
 git remote -v
 
-6) First commit:
+7) First commit:
+   
 git add .
 
 git commit -m "Initial commit"
 
 8) First push + set upstream:
+9) 
 git push -u origin main
 
 
