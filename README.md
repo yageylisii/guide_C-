@@ -23,7 +23,7 @@ git branch -M main
 
 4) Create the repo on GitHub EMPTY
 
-When you create it on GitHub, choose:
+When you createSoft wrap it on GitHub, choose:
 
 ✅ Do NOT add README
 
@@ -33,16 +33,16 @@ When you create it on GitHub, choose:
 
 (Empty remote avoids “fetch first” problems.)
 
-5) Connect remote (origin)
+5) Connect remote (origin):
 git remote add origin https://github.com/USERNAME/REPO.git
 git remote -v
 
-6) First commit
+6) First commit:
 git add .
 
 git commit -m "Initial commit"
 
-8) First push + set upstream
+8) First push + set upstream:
 git push -u origin main
 
 
