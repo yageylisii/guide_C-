@@ -1,0 +1,3 @@
+/home/sergey/Desktop/c++/simple_calculator/build/CMakeFiles/main.dir
+/home/sergey/Desktop/c++/simple_calculator/build/CMakeFiles/edit_cache.dir
+/home/sergey/Desktop/c++/simple_calculator/build/CMakeFiles/rebuild_cache.dir
