@@ -41,4 +41,4 @@ After this, next times you can do:
 
 git add .
 git commit -m "Some change"
-git push
+git push:
