@@ -2,7 +2,6 @@
 cd ~/Desktop/my_project
 
 1) Create README + .gitignore (optional but recommended)
-touch README.md .gitignore
 
 
 2) Initialize git
