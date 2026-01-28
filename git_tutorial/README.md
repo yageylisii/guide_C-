@@ -124,6 +124,7 @@ git commit -m "message"   # create a commit (snapshot)
 git push                  # send commits to remote
 git pull                  # fetch + merge
 git pull --rebase         # fetch + rebase (clean history)
+git fetch                 # only write new commits , doesnt change the code in the local directory
 ```
 
 ---
