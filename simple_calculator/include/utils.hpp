@@ -1,4 +1,4 @@
-#ifdef UTILS_H
+#ifndef UTILS_H
 #define UTILS_H
 
 int solution (int first_operand, int second_operand); //definition

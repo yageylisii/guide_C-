@@ -4,10 +4,11 @@ project(SimpleCalc)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_executable(main
+    app/main.cpp
+    src/utils.cpp
+)
 
 target_include_directories(main
     PRIVATE include
 )
-
-
-add_executable(main app/main.cpp)
